@@ -13,5 +13,9 @@ int main(){
 	int arr[] = {78,57,23,1};
 	int size = sizeof(arr)/sizeof(arr[0]);
 	func(arr,size);
+	for(int i=0;i<size;i++){
+		cout<<arr[i]<<" ";
+	}
+	cout<<endl;
 	return 0;
 }
